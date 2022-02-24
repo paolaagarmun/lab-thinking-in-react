@@ -14,8 +14,8 @@ function ProductTable(props) {
         </tr>
       </thead>
 
-      {props.products.map((product, i) => {
-        return <ProductRow key={i} name={product.name} price={product.price} />;
+      {props.products.map((product) => {
+        return <ProductRow key={product.id} name={product.name} price={product.price} inStock={product.inStock}/>;
       })}
     </table>
   );
