@@ -8,7 +8,7 @@ function ProductTable(props) {
   return (
     <table className='products-tables'>
       <thead >
-        <tr >
+        <tr>
           <th>Name</th>
           <th>Price</th>
         </tr>

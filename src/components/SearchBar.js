@@ -27,7 +27,7 @@ function SearchBar(props) {
     }
 
     return (
-        <div>
+        <div style={{margin:25}}>
             <h3>Search</h3>
             <input type="text" onChange={handleSearch}/>
             <br/>
